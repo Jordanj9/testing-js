@@ -1,0 +1,36 @@
+describe('Set', () => {
+  beforeAll(() => {
+    console.log('beforeAll');
+    // up db
+  });
+
+  afterAll(() => {
+
+    console.log('afterAll');
+    // down db
+  });
+
+  beforeEach(() => {
+    console.log('beforeEach');
+    // up db
+  });
+
+  afterEach(() => {
+    console.log('afterEach');
+    // down db
+  });
+
+
+  test('case 1', () => {
+    console.log('case 1');
+    expect(1 + 1).toBe(2);
+  })
+  test('case 2', () => {
+    console.log('case 2');
+    expect(1 + 2).toBe(3);
+  })
+  test('case 3', () => {
+    console.log('case 3');
+    expect(1 + 3).toBe(4);
+  })
+});
