@@ -6,7 +6,7 @@ describe('Test for hello endpoint', () => {
   let server = null;
   beforeAll(() => {
     app = createApp();
-    server = app.listen(30001);
+    server = app.listen(40025);
   });
 
   afterAll(async () => {
